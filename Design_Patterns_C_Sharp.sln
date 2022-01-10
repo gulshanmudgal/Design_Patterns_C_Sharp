@@ -3,9 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F650D5C6-4F1B-46EA-AC7A-9F748BF3BADD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Observer Pattern", "Observer Pattern", "{F2561200-E88B-4A15-89F6-907B6A4A307A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer_Pattern", "Observer_Pattern\Observer_Pattern.csproj", "{4B09B9AA-A42C-4750-AF76-C0AED53843BA}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B09B9AA-A42C-4750-AF76-C0AED53843BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B09B9AA-A42C-4750-AF76-C0AED53843BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B09B9AA-A42C-4750-AF76-C0AED53843BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B09B9AA-A42C-4750-AF76-C0AED53843BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F2561200-E88B-4A15-89F6-907B6A4A307A} = {F650D5C6-4F1B-46EA-AC7A-9F748BF3BADD}
+		{4B09B9AA-A42C-4750-AF76-C0AED53843BA} = {F2561200-E88B-4A15-89F6-907B6A4A307A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4ADB209A-AF5B-46E9-8174-B84E70C5D9AB}

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Observer_Pattern.Observers
 {
-    internal class StatisticsDisplay : IObserver
+    internal class StatisticsDisplay : IObserver, IDisplay
     {
         private double _maxTemp;
         private double _minTemp = double.MaxValue;
@@ -37,6 +37,13 @@ namespace Observer_Pattern.Observers
             {
                 temperature = _minTemp;
             }
+
+            Display();
+        }
+
+        public void Display()
+        {
+            Console.WriteLine("Avg/Max/Min temperature = " + (_tempSum / _numReadings) + "/" + _maxTemp + "/" + _minTemp);
         }
     }
 }

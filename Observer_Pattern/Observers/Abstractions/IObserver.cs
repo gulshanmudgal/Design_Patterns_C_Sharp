@@ -8,5 +8,6 @@ namespace Observer_Pattern.Observers.Abstractions
 {
     internal interface IObserver
     {
+        void Update(double temperature, double humiditty, double pressure);
     }
 }
